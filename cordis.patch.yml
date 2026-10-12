@@ -1,0 +1,6 @@
+# 补充层（patch）—— 只做「新增一行」，不覆盖任何已装 bundle 的配置。
+# 说明：profile 会按 dsh.profile.bundles 的顺序把每个 bundle 的 patch 叠加到空列表上，
+#       所以这里只能插入自己的行。
+- insert:
+    - id: jsnu-model
+      name: dsh-jsnu-model

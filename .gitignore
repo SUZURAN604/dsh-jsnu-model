@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# 本地会话/凭据绝不能进仓库
+.dsh-jsnu-session.json
+.dsh-jsnu-model-session.json
+.dshw-api.json
+.credentials.yaml
+.env
+.env.*
+!.env.example
